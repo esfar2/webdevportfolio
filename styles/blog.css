@@ -190,6 +190,14 @@ main section {
 }
 
 /* customization of resume section */
+.resume-container {
+  display: flex;
+  gap: 20px;
+}
+
+hr {
+  background: #d1d1d1;
+}
 .resume-column-title {
   color: #474747;
   font-size: 20px;
@@ -216,4 +224,9 @@ main section {
   font-size: 13px;
   font-weight: 400;
   line-height: 28px; /* 175% */
+}
+
+.download-cv {
+  text-align: center;
+  margin-top: 20px;
 }
