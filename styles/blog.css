@@ -107,6 +107,10 @@ main {
   margin: 0 auto;
 }
 
+main section {
+  margin-top: 130px;
+}
+
 .section-title {
   color: #181818;
   text-align: center;
@@ -157,22 +161,59 @@ main {
   padding: 20px;
 }
 
-.skill-container{
+.skill-container {
   display: flex;
-  justify-content:space-evenly;
+  gap: 30px;
 }
-.skill-type{
+.skill-type {
   color: #181818;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
-.skill-description{
-color:  #757575;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; 
+.skills {
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  /* margin: 0px 20px; alternative to flex gap */
+}
+
+.skill-description {
+  color: #757575;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* customization of resume section */
+.resume-column-title {
+  color: #474747;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.resume-item-name {
+  color: #474747;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.resume-item-institute {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.resume-item-description {
+  color: #757575;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
 }
