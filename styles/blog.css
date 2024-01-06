@@ -1,0 +1,6 @@
+/* customizing navigation */
+
+nav {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+}
